@@ -37,4 +37,4 @@ else:
     total = quan * 99
     total = total * 0.55
     res = format(total, '10,.2f')
-    print("  The final price for purchasing", quan, "packages is $", res)
+    print("  The final price for purchasing", quan,"packages is $",res)
