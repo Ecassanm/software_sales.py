@@ -1,4 +1,11 @@
-quan = input("Please input the number of packages to be purchased: ")
+################################################################################
+# Author: Emily Cassanmagnago 
+# Date: 02/21/2021
+# This program calculates roulette colors
+# based on pocket number
+################################################################################
+
+quan = int(input("Please input the number of packages to be purchased: "))
 if quan <= 0:
 	print("Invalid Input!")
 elif ((quan > 0) and (quan < 10)):
